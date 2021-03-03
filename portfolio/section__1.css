@@ -1,0 +1,76 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-pink);
+  font-size: var(--font-regular);
+  color: var(--color-white);
+  margin: 20px 20px 0px 20px;
+  padding: 10px;
+}
+.navigation__logo {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+}
+.navigation__logo > a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+.navigation__logo > a:visited {
+  color: var(--color-white);
+}
+
+/* 네비게이션 바 */
+.navigation__bar {
+  display: flex;
+}
+.navigation__bar-list {
+  cursor: pointer;
+  padding: 10px;
+}
+.navigation__bar-list:hover {
+  background-color: var(--color-dark-pink);
+  border: 1px solid white;
+  border-radius: var(--size-border-radius);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-pink);
+  margin: 0px 20px 20px 20px;
+}
+
+/* 호순이 사진 */
+.profile__picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 50px 0px 0px 0px;
+}
+.profile > h1 {
+  text-align: center;
+  color: var(--color-white);
+  line-height: 60px;
+}
+.profile > p {
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  margin-bottom: 30px;
+}
+
+/* CONTACT ME 버튼 */
+.profile__button {
+  color: var(--color-white);
+  background-color: var(--color-pink);
+  padding: 7px;
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: var(--size-border-radius);
+  font-weight: var(--weight-regular);
+  cursor: pointer;
+}

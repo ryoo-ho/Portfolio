@@ -1,0 +1,38 @@
+#section__2-about {
+  margin: 0px 20px 0px 20px;
+}
+.about__me {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.about__me > p {
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+  text-align: center;
+  width: 800px;
+}
+
+/* about me 아이콘 */
+.about__majors {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.majors {
+  text-align: center;
+  color: ;
+}
+.majors__icon {
+  padding: 30px 45px;
+  border-radius: 50%;
+  border: 1px solid var(--color-blue);
+  font-size: 60px;
+  color: var(--color-blue);
+}
+.majors > h3 {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: var(--weight-bold);
+}
