@@ -1,0 +1,15 @@
+#section__4-work h3 {
+  font-weight: var(--weight-semi-bold);
+}
+.category__btn {
+  width: 150px;
+  font-weight: var(--weight-semi-bold);
+  height: 30px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-grey);
+  border-radius: 5px;
+  /* button사이 붙이기 어떻게? */
+}
+.category__count {
+  margin-left: 10px;
+}
