@@ -38,7 +38,18 @@
   /* border: 1px solid white; */
   border-radius: var(--size-border-radius);
 }
-
+/* 토글 버튼 */
+.navbar__toggle-btn {
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: var(--color-white);
+  border: none;
+  background-color: var(--color-dark-pink);
+  padding: 0;
+  cursor: pointer;
+  display: none;
+}
 .profile {
   display: flex;
   flex-direction: column;
